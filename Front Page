@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="MainPage.css">
+	<title></title>
+</head>
+<body>
+
+
+
+	<div class="navbar">
+		<div>
+			<nav class="nav">
+				<a href="#">LOGO</a>
+				<a href="#">Home</a>
+				<a class="name1">Yousaf Boys High School</a>
+				
+				<a href="Login.html" class="reg">Register</a>
+				<a href="Login1.html">Login</a>
+			</nav>
+		</div>
+		
+
+	</div>
+	<div class="imageslide" >
+		  <img class="mySlides" src="School.jpg" style="width:100%; height: 400px;">
+		  <img class="mySlides" src="p.jpeg" style="width:100%; height: 400px;">
+		  <img class="mySlides" src="kids.jpeg" style="width:100%; height: 400px;">
+	</div>
+	<div>
+		<h2>About Us</h2>
+		<p>
+			At The Potomac School, we believe that intellectual development, love of learning, and strength of character are complementary, and equally essential, educational goals. With a firm commitment to our core values and a rigorous academic program, we prepare students to lead lives of purpose, achievement, and generosity of spirit.
+		</p>
+	</div>
+	<div>
+		<h2>News</h2>
+	</div>
+	<div style="border: groove; margin-left: -8px; margin-right: -7px;background-color: darkgray;">
+	<footer >
+		<p>Copy Right: Hege Refsnes</p>
+  		<p>Contact information: <a style="text-decoration: none;" href="mailto:umerfarooq1174@gmail.com">
+  someone@example.com</a>.</p>
+	</footer>
+</div>
+<script>
+	var myIndex = 0;
+	carousel();
+
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {a
+	    x[i].style.display = "none";  
+	  }
+	  myIndex++;
+	  if (myIndex > x.length) {myIndex = 1}    
+	  x[myIndex-1].style.display = "block";  
+	  setTimeout(carousel, 2000); // Change image every 2 seconds
+	}
+</script>
+
+
+</body>
+</html>
