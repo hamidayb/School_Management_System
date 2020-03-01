@@ -1,0 +1,42 @@
+.main
+{
+	padding-left: 30%;
+	width: 41%;
+}
+.REGISTRATION
+{
+	/*border: groove;
+	border-style: outset;
+	*/color: white;
+	font-size: 40px;
+    background-color: darkblue;
+    text-align: center;
+    border-width: 4px;
+}
+.form1
+{
+	border: groove;
+	border-color: blue;
+	border-width: 2px;
+	position: inherit;
+	margin-top: -9.3%;
+	background-color: whitesmoke;
+}
+.formfield1/* input field*/
+{
+	position: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 90%;
+	font-size: 25px;
+}
+.formfield
+{
+	padding-left: 10px;
+	font-size: 30px;
+	font-family: all;
+}
+.forminside
+{
+padding-top: 10px;
+}
