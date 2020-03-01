@@ -1,0 +1,37 @@
+.navbar
+{
+	background-color: darkblue;
+	min-height: 50px;
+	border: none;
+	display:flex;
+	margin-top: -7.68px;
+	margin-left: -8px;
+	margin-right: -7px;
+
+}
+.nav
+{
+	word-spacing: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nav a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	
+}
+.name1
+{
+	word-spacing: 5px;
+}
+.reg
+{
+	margin-inline-start:500px;
+}
+.imageslide
+{
+	margin-left: -6px;
+	margin-right: -8px;
+}
