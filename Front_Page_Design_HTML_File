@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>LCM</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+<!-- HEADER STARTS  -->
+
+    <header>
+      <div class="main">
+        <div class="logo">
+          <img src="Logo2.png">
+        </div>
+        <ul class="home-tags">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Financial Aid</a></li>
+        </ul>
+      </div>
+      <div class="login-users">
+        <ul>
+          <li><a href="#" onclick="open_login()">Student</a></li>
+          <li><a id="a01" href="#">|</a></li>
+          <li><a href="#" onclick="open_login()">Faculty</a></li>
+          <li><a id="a01"href="#">|</a></li>
+          <li><a href="#" onclick="open_login()">Admin</a></li>
+        </ul>
+      </div>
+      <div class="title">
+        <h2 id="h02">Quote of the day</h2>
+        <h1> "NEVER GIVE IN" </h1>
+      </div>
+<!--
+      <div class="button">
+        <a href="#" class="btn">Watch Video</a>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+-->
+      <div class="events">
+        <h2 id='h01'>News & Events:</h2>
+      </div>
+    </header>
+
+<!--    HEADER ENDS   -->
+
+    <div class="why-us">
+      <div class="why-us-text">
+        <p id='heading' class="why-LCM">Why Lorence College Murree?</p>
+        <div class="bottom-line">
+          <img src="underline-flyer.png">
+        </div>
+        <p id="p01" class="paragraph">
+              Lorence College Murree has been known as the best College in Pakistan with over 10,000 students
+                    passed out and are serving in the major departments of Pakistan.
+        </p>
+      </div>
+    </div>
+
+    <div class="about-us">
+      <div class="why-us-text">
+        <p id='heading' class="why-LCM">ABOUT US?</p>
+        <div class="bottom-line">
+          <img src="underline-flyer.png">
+        </div>
+        <p id="p01" class="paragraph">
+              Lorence College Murree has been known as the best College in Pakistan with over 10,000 students
+                    passed out and are serving in the major departments of Pakistan.
+        </p>
+      </div>
+    </div>
+
+<!--   OFFERED PROGRAM  DIV STARTS  -->
+
+    <div class="offered-program">
+      <div class="why-us-text">
+        <p id='heading' class="why-LCM">OFFERED PROGRAMS</p>
+        <div class="bottom-line">
+          <img src="underline-flyer.png">
+        </div>
+        <ul>
+          <li>
+            <div class="program-box">
+
+              <p id="headingwhite">FSC Pre-Engineering</p>
+
+            </div>
+          </li>
+          <li>
+            <div class="program-box">
+
+              <p id="headingwhite">FSC Pre-Medical</p>
+
+            </div>
+          </li>
+          <li>
+            <div class="program-box">
+
+              <p id="headingwhite">Inter in Computer Science</p>
+
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+<!--   OFFERED PROGRAM  DIV ENDS  -->
+
+<!--  FOOTER START   -->
+
+    <footer>
+      <div class="main-page-footer">
+        <ul>
+          <li>
+            <div class="footer-elements">
+              <p id="h01">Contact Us</p>
+      <!--        <div class"footer-logo"><img src="phone.png"></div>     -->
+              <p id="p02"> (051) 5460608</p>
+      <!--        <div class"footer-logo"><img src="fax-logo.png"></div>   -->
+              <p id="p02"> 92-51-2263733</p>
+      <!--        <div class"footer-logo"><img src="mail-logo.png"></div>   -->
+              <p id="p02">hamidayb123@gmail.com</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="footer-elements">
+              <p id="h01">Studying at LCM</p>
+              <p id="p02">Why LCM?</p>
+              <p id="p02">Admission Procedure</p>
+              <p id="p02">Scholarships</p>
+              <p id="p02">Library</p>
+              <p id="p02">Transport</p>
+              <p id="p02">FAQs</p>
+              <p id="p02">Student Affairs</p>
+            </div>
+          </li>
+          <li>
+            <div class="footer-elements">
+              <p id="h01">Programs Offered</p>
+              <p id="p02">FSC Pre Engineering</a>
+              <p id="p02">FSC Pre Medical</a>
+              <p id="p02">Inter in Computer Science</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+<!-- FOOTER ENDS   -->
+
+    <div class="login-box" id="login-form">
+<!--         -->
+      <div class="login-content">
+        <img src = "login-avatar.png" class="login-avatar">
+        <a href="#" onclick="close_login()" class="close-btn">Close</a>
+        <h2 id="h-login">LOGIN</h2><br>
+        <input type="text" placeholder="Username" name="id" value="">
+        <input type="password" placeholder="Password" name="pass" value="">
+        <a class="button" href="#">Login</a>
+        <p>Forgot Password? Recover <a>HERE</a></p>
+      </div>
+    </div>
+
+    <script>
+      function open_login(){
+        document.getElementById("login-form").style.display = "flex";
+      }
+      function close_login(){
+        document.getElementById("login-form").style.display = "none";
+      }
+    </script>
+
+
+
+
+
+  </body>
+</html>
