@@ -1,0 +1,13 @@
+<!-- This file will create the transparent login page -->
+
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="login-page">
+    <img src = "login-avatar.png" class="login-avatar">
+  </div>
+</body>
+</html>
